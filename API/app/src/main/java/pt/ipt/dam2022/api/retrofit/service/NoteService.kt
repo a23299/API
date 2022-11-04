@@ -1,10 +1,10 @@
-package pt.ipt.dam.api.retrofit.service
+package pt.ipt.dam2022.api.retrofit.service
 
-import com.ipt.android.api.model.Note
+import pt.ipt.dam2022.api.Model.Note
 import retrofit2.Call
 import retrofit2.http.GET
 
 interface NoteService {
-    @GET("API/getNotes.php")
+    @GET("api/notes")
     fun list(): Call<List<Note>>
 }
