@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">API</string>
     <string name="add_random_note">Add Random Note</string>
+    <string name="get_jwt">Get JWT</string>
+    <string name="get_basic_auth">Get Basic Auth</string>
+    <string name="get_no_auth">Get no Auth</string>
+    <string name="clear">Clear</string>
 </resources>
